@@ -1,0 +1,49 @@
+2. Answers the following git commands and add the file into the folder - Provide commands for below operation
+
+a.Command to initialize git repository
+   = git init
+
+b.Command to clone remote repository
+   = git clone <repository link>
+
+c.Command to stage all changes
+   = git add .
+
+d.Command to view state of working directory and staging area
+   = git status
+
+e.Command to create new branch
+   = git branch <branch_name>
+
+f.Command to change branch
+   = git checkout <branch_name>
+
+g.Command to clean staging area
+   = git reset
+
+h.Command to get commits and changes from remote branch (It should not merge changes in current branch).
+   = git fetch origin <remote_branch_name>:<local_branch_name>
+
+i.Command to get commits and changes from remote branch (It should merge changes in current branch).
+   = git pull origin <remote_branch>
+
+j.Command to cherry pick commit which SHA => 092018283103810930
+   = git cherry-pick 092018283103810930
+
+k.Command to push branch
+   = git push origin <branch_name>
+
+l.Command to delete remote branch
+   = git push origin -delete <branch_name>
+
+m.Command to do iterative rebase
+   = git rebase -i HEAD~n
+
+
+
+
+
+
+   
+
+
